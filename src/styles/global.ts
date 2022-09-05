@@ -13,13 +13,13 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body{
-    background-color: ${({ theme }) => theme['gray-800']};
-    color: ${({ theme }) => theme['gray-100']};
+    background-color: ${({ theme }) => theme['green-800']};
+    color: ${({ theme }) => theme['gray-300']};
     -webkit-font-smoothing: antialiased;
-  }
+    }
 
     body, input, textarea, button {
-        font: 400 16px Roboto, sans-serif;
+        font: 400 16px Nunito, sans-serif;
     }
     
 @media (max-width: 1080px) {
