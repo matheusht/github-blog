@@ -15,6 +15,48 @@ position: absolute;
 top: 100%;
 left: 50%;
 transform: translate(-50%, -50%);
+padding: 32px 40px;
+gap: 2rem;
+ 
+img {
+    width: 148px;
+    height: 148px;
+    border-radius: 8px;
+}
+
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+strong {
+    font-size: 1.5rem;
+    color: ${({ theme }) => theme['gray-100']};
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    color: ${({ theme }) => theme['gray-300']};
+}
+
+
+span {
+   display: flex;
+    gap: 1.5rem;
+}
+
+span > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+}
 
 
 
