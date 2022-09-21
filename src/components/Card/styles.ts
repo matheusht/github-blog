@@ -8,13 +8,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin: auto;
-height: 13.25rem;
 z-index: 1;
 background: ${({ theme }) => theme['green-700']};
-position: absolute;
-top: 100%;
-left: 50%;
-transform: translate(-50%, -50%);
 padding: 32px 40px;
 gap: 2rem;
  
@@ -47,6 +42,7 @@ p {
 
 
 span {
+    margin-top: 24px;
    display: flex;
     gap: 1.5rem;
 }
