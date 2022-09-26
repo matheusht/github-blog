@@ -8,6 +8,7 @@ export const IssueItemContainer = styled.div`
     justify-content: space-between;
     flex-direction: column;
     padding: 32px;
+    cursor: pointer;
     gap: 20px;
     background-color: ${({ theme }) => theme['green-600']};
     border-radius: 10px;

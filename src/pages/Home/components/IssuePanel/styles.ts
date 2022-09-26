@@ -7,6 +7,6 @@ export const IssuePanelContainer = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 12px;
+    gap: 32px;
     margin-top: 72px;
 `
